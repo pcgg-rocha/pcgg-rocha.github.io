@@ -1,0 +1,178 @@
+/* ===========================
+   ESTILO GERAL
+=========================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ===========================
+   CABEÇALHO
+=========================== */
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   MENU
+=========================== */
+
+nav {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   CONTEÚDO
+=========================== */
+
+section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0d6efd;
+}
+
+h3 {
+    color: #444;
+}
+
+/* ===========================
+   IMAGENS
+=========================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+}
+
+/* ===========================
+   TABELAS DA GALERIA
+=========================== */
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered td {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.figure-img {
+    border: none;
+    border-radius: 0;
+}
+
+.figure-caption {
+    margin-top: 8px;
+    color: #555;
+    font-size: 0.85rem;
+}
+
+/* ===========================
+   LISTAS
+=========================== */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* ===========================
+   VÍDEO
+=========================== */
+
+video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a {
+    color: #0d6efd;
+}
+
+a:hover {
+    color: #084298;
+}
+
+/* ===========================
+   RODAPÉ
+=========================== */
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   LINHAS
+=========================== */
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
